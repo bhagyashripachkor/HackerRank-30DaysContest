@@ -14,7 +14,6 @@ public class Solution {
         while(tokens.hasMoreTokens()){
             count++;
             String token = tokens.nextToken();
-            //System.out.println(token);
             array.add(token);
         }
         System.out.println(count);
